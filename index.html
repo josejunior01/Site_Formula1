@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="responsividade.css">
+</head>
+
+<body>
+
+  <header>
+
+    <!-- div 1 ela ela esta direcionando minha imagem no header -->
+    <div class="f1">
+      <img src="img/icons8-fórmula-1-50.png"  alt="IMAGEM LOGO">
+    </div>
+
+    <!-- div 2 ela esta amarzenando minha nav com minha lista ul e li -->
+    <div>
+
+      <nav class="header">
+
+        <ul>
+
+          <li>
+            <a href>HOME</a>
+          </li>
+
+          <li>
+            <a href>COMPRA DE INGRESSO</a>
+          </li>
+
+          <li>
+            <a href>CORRIDAS</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- div3 pai ela esta abraçando a (div video)(div h1 eo p e button)  -->
+  <div>
+
+    <!-- div 4 esta relacionada a meu video da pagania -->
+    <div>
+      <video autoplay muted loop id="myVideo">
+        <source src="video/corida-F1.mp4" type="video/mp4">
+
+      </video>
+    </div>
+    <!-- div 5 de h1 , p e butonn-->
+    <div class="content">
+      <h1>CORRIDA</h1>
+      <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat
+        phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum
+        maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore
+        latine molestiae, ad mutat oblique delicatissimi pro.</p>
+
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+
+    </div>
+
+    <!-- essa div 6 pai ela esta abraçando minha section -->
+  </div>
+
+  <section class="sessao1">
+    <!-- div 7 ela tem 3 (p) de paragrafo que ela eta abraçando -->
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+        maxime nemo eos ea ducimus labore et ut consectetur commodi
+        consequatur. Sequi ratione, dignissimos illum numquam impedit omnis.
+        Libero, voluptatibus sed?</p>
+    </div>
+
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+        maxime nemo eos ea ducimus labore et ut consectetur commodi
+        consequatur. Sequi ratione, dignissimos illum numquam impedit omnis.
+        Libero, voluptatibus sed?</p>
+    </div>
+
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+        maxime nemo eos ea ducimus labore et ut consectetur commodi
+        consequatur. Sequi ratione, dignissimos illum numquam impedit omnis.
+        Libero, voluptatibus sed?</p>
+    </div>
+  </section>
+
+  <div class="pai">
+
+    <div  class="div-number item">
+<img src="img/ferrari-5352901_1280.jpg" alt="imagem-carro-formula-1">
+</div>
+
+    <div class="div-number item"><img src="img/lewis-4341616_960_720.jpg" alt="imagem-carro-formula-1"></div>
+    <div class="div-number item"><img src="img/max-verstappen-6633948_1280.jpg" alt="imagem-carro-formula-1"></div>
+
+  </div>
+
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+
+
+
+  <section class="for-map">
+
+    <div class="form">
+
+      <form action="">
+        <h2>FORMULARIO DE CONSULTA</h2>
+
+        <hr>
+
+        <label for="nome">nome</label>
+        <input type="nome" placeholder="nome"> <br>
+
+        <label for="EMAIL">email</label>
+        <input type="email" placeholder="email"><br><br>
+      
+
+        <p>DEIXE SUA DUVIDA</p>
+        <textarea name="" id="MSG" cols="30" rows="10">
+    </textarea>
+
+        <div class="btn">
+          <input type="submit" name="" id="">
+        </div>
+      </form>
+
+    </div>
+
+
+
+
+
+    <div class="mapa">
+
+
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.6457008304037!2d-46.4585045!3d-23.509267700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce613f7429c75b%3A0x6892aa53e2bf6caa!2sTv.%20Greg%C3%B3rio%20Fidanza%20-%20Jardim%20das%20Camelias%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008050-312!5e0!3m2!1spt-BR!2sbr!4v1715037338088!5m2!1spt-BR!2sbr"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+    </div>
+  </section>
+
+  <footer >
+    <nav class="rodape">
+      <ul>
+        <li><a href="">CONTATO</a></li>
+        <li><a href="">SOBRE</a></li>
+        <li><a href="">AJUDA</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <!-- aqui eu tenho meu script que esta sendo chamando em outra paginha como index.js -->
+  <script src="script.js"></script>
+</body>
+
+</html>
